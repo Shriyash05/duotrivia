@@ -1,0 +1,195 @@
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.message-box {
+  border-color: #ff4d4d; /* Hot red color */
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8); /* Light background with transparency */
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  align-items: stretch;
+  margin: 20px;
+}
+
+.message{
+  border: 2px solid black;
+}
+
+h2 {
+  text-align: center;
+  color: #ff4d4d; /* Hot red color */
+}
+
+.messages {
+  overflow-y: scroll;
+  flex: 1;
+  width: 100%;
+  padding: 20px;
+}
+
+.inputs {
+  padding: 10px;
+  display: flex;
+  background-color: #fff; /* White background */
+  border-top: 2px solid #ff4d4d; /* Hot red color */
+}
+
+#message {
+  flex: 1;
+  border: none;
+  padding: 15px;
+  border-radius: 8px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+#send-btn {
+  background-color: #4caf50; /* Green color */
+  color: #fff; /* Text color */
+  border: none;
+  padding: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+#send-btn:hover {
+  background-color: #0083fe; /* Darker green on hover */
+}
+
+#next-question-btn {
+  background-color: rgb(255, 221, 0); /* Green color */
+  color: #fff; /* Text color */
+  border: none;
+  padding: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  margin-left: 10px;
+}
+
+#next-question-btn:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+
+.muted {
+  font-size: 10px;
+  color: darkgray;
+}
+
+body {
+ 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  color: black; /* Text color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.question-container {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+
+
+.buttons {
+  background-color: rgba(255, 255, 255, 0.8); /* Light background with transparency */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+h3 {
+  color: #ff4d4d; /* Hot red color */
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333; /* Dark gray text color */
+}
+
+input {
+  width: 85%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #423f3f; /* Light gray border */
+  border-radius: 5px;
+}
+
+.join {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.join input {
+  margin-bottom: 8px;
+  width: 85%;
+  padding: 10px;
+  
+}
+
+button {
+  background-color: #4caf50; /* Green color */
+  color: #fff; /* White text color */
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.create-btn {
+  width: 100%;
+  background-color: #3498db; /* Blue color */
+  color: #fff; /* White text color */
+}
+
+.create-btn:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  color: #ff4d4d; /* Hot red color */
+}
+

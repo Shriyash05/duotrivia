@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spice it up</title>
+    <link
+      rel="stylesheet"
+      href="{{url_for('static', filename='index.css')}}"
+    />
+</head>
+<body>
+    <video autoplay loop muted plays-inline class="back">
+        <source src="static\bg.mp4" type="video/mp4">
+    </video>
+    <h1 id="h1">Spice it up ! 🌶️</h1>
+    <div class="container">
+        <form action="/options/" method="post">
+        <button class="btn1" type="submit">Let The Game Begin !</button>
+    </form>
+    </div>
+</body>
+</html>
