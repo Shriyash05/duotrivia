@@ -6,4 +6,5 @@ PLANSKU="F1"
 SITENAME="duotrivia"
 RUNTIME="PYTHON|3.12"
 
-gunicorn --bind=0.0.0.0 --timeout 600 main:myapp
+# gunicorn --bind=0.0.0.0 --timeout 600 main:myapp
+python main.py
